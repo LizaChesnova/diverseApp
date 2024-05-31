@@ -1,0 +1,44 @@
+
+.place_list {
+    list-style: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    gap: 24px;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.place_link {
+    display: flex;
+    height: 100%;
+}
+
+
+@media (width <= 650px) {
+   .list_section{
+    width: 351px;
+   }
+
+    .place_list {
+
+        grid-template-columns: 1fr;
+
+    }
+    .place_description {
+
+        bottom: 16px;
+        left: 16px;
+        gap: 16px;
+    }
+
+    .place_name {
+        font-size: 20px;
+    }
+
+    .place_adress {
+        font-size: 14px;
+    }
+
+
+}

@@ -1,0 +1,305 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Buttons/AddPlace.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.AddPlace_add__wzyiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddPlace_add_button__aLp_5 {
+  font-family: Comfortaa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  z-index: 5;
+  width: 450px;
+  height: 56px;
+  position: fixed;
+  bottom: 124px;
+  font-size: 24px;
+  background-color: #E4F3DF;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0px;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+}
+.AddPlace_add_button__aLp_5:disabled{
+  background-color: #ffffff;
+  border: 2px solid #6CBF52;
+  color: #6CBF52;
+  box-shadow: none;
+
+}
+
+
+
+.AddPlace_plus__d_CzS {
+
+  height: 25px;
+}
+
+@media (max-width: 650px) {
+
+  .AddPlace_add_button__aLp_5 {
+
+    gap: 16px;
+
+    width: 351px;
+    height: 56px;
+
+
+    bottom: 96px;
+    font-size: 18px;
+
+  }
+
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Overlay/Overlay.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Overlay_overlay__87APJ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.4);
+  display: none;
+  z-index: 4;
+}
+
+.Overlay_overlay_is-opened__QKW4v {
+  display: block;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Popup/Popup.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Popup_popup__lJxRt {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background-color: #fff;
+  padding: 20px 78px;
+  display: none;
+  z-index: 5;
+  border-radius: 20px;
+}
+
+.Popup_popup_is-opened__R8NFO {
+  display: block;
+}
+
+.Popup_close__efpry {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.Popup_close-icon__QfKYp {
+  width: 16px;
+  height: 25px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.Popup_close-icon__QfKYp:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media (max-width: 650px) {
+  .Popup_popup__lJxRt {
+    width: 80%;
+    padding: 32px 24px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Forms/NewPlaceForm.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.NewPlaceForm_form__ATAxJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewPlaceForm_form__title__mBltc {
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.NewPlaceForm_form__fields__mGcBI {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.NewPlaceForm_form__field__NffFw {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.NewPlaceForm_form__field-title__ROVUK {
+  font-size: 24px;
+}
+
+.NewPlaceForm_form__field-input__PbCUP {
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  font-family: inherit;
+  border-width: 0 0 1px 0;
+  border-color: #DADADA;
+  margin-top: 10px;
+  padding: 0;
+
+}
+
+.NewPlaceForm_form__actions__7nhyY {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.NewPlaceForm_form__reset__eWKgW {
+  width: 366px;
+  height: 56px;
+  font-family: inherit;
+  background-color: transparent;
+  font-size: 20px;
+  color: #6CBF52;
+  border: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.NewPlaceForm_form__reset__eWKgW:hover {
+  color: rgb(0, 0, 0);
+  background-color: #E4F3DF;
+}
+
+.NewPlaceForm_form__reset__eWKgW:disabled {
+  opacity: .9;
+  pointer-events: none;
+}
+.NewPlaceForm_form__delet__5SuG4{
+  width: 366px;
+  height: 56px;
+  font-family: inherit;
+  background-color: transparent;
+  font-size: 20px;
+  color: #CE4B4B;
+  border: 1.5px solid #CE4B4B;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  border-radius: 20px;
+
+}
+.NewPlaceForm_form__delet__5SuG4:hover {
+  color: rgb(255, 255, 255);
+  background-color: #E1928C;
+  border: none;
+}
+
+
+
+.NewPlaceForm_form__submit__KGr6c {
+  width: 366px;
+  height: 56px;
+  font-size: 20px;
+  background-color: #6CBF52;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  padding: 0;
+  transition: color 0.3s ease-in-out
+}
+
+.NewPlaceForm_form__submit__KGr6c:hover {
+  color: rgb(0, 0, 0);
+}
+
+.NewPlaceForm_form__submit__KGr6c:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+@media (max-width: 650px) {
+  .NewPlaceForm_form__title__mBltc {
+    font-size: 24px;
+  }
+  .NewPlaceForm_form__field-title__ROVUK {
+    font-size: 16px;
+  }
+  
+  .NewPlaceForm_form__reset__eWKgW {
+    width: 320px;
+  }
+  .NewPlaceForm_form__submit__KGr6c {
+    width: 320px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/places/[id]/Place.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Place_place_title__hQ849 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.Place_place_adress__Wi1kE{
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #000000;
+
+}
+.Place_event_date__hIA_N{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #327C1B;
+
+}
+.Place_place_disc__rsppD{
+    margin-top: 24px;
+
+}
+
+.Place_place_img__2Nlkl{
+    width: 700px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+@media (max-width: 650px) {
+  
+    .Place_place_title__hQ849 {
+  
+      font-size: 20px;
+  
+    }
+    .Place_place_adress__Wi1kE{
+        font-size: 16px;
+  
+    }
+    .Place_place_img__2Nlkl{
+        width: 340px;
+    }
+    
+  
+  }

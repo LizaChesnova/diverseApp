@@ -1,0 +1,88 @@
+
+.place_list {
+    list-style: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    gap: 24px;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.place_link {
+    display: flex;
+    height: 100%;
+}
+.place_card {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.place_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.place_description {
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.place_name {
+    font-size: 24px;
+}
+
+.place_adress {
+    font-size: 18px;
+}
+
+@media (width <= 650px) {
+   .list_section{
+    width: 351px;
+   }
+
+    .place_list {
+
+        grid-template-columns: 1fr;
+
+    }
+    .place_description {
+
+        bottom: 16px;
+        left: 16px;
+        gap: 16px;
+    }
+
+    .place_name {
+        font-size: 20px;
+    }
+
+    .place_adress {
+        font-size: 14px;
+    }
+
+
+}

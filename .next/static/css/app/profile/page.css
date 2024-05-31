@@ -1,0 +1,315 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Profile/AuthForm.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.AuthForm_form_section__qOBJw{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/images/chatbackgroundBig.svg) center ;
+    background-size: cover;
+}
+.AuthForm_form___A_jj {
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 7;
+}
+
+.AuthForm_form_fields__3_CNr {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.AuthForm_form_title__yP3Z7 {
+    font-size: 20px;
+}
+
+.AuthForm_form_fieldinput__PDWbS {
+    width: 336px;
+    height: 56px;
+    font-size: 20px;
+    font-family: Comfortaa;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: 0px;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.15);
+    margin-top: 32px;
+    color: rgb(0, 0, 0, 0.6);
+    padding-left: 16px;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.AuthForm_form__submit__bXYrn {
+    width: 356px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #6CBF52;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    transition: color 0.3s ease-in-out
+}
+
+.AuthForm_form__submit__bXYrn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.AuthForm_form__submit__bXYrn:disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+
+.AuthForm_form_fieldinput__PDWbS:focus {
+    outline-width: 2px;
+    outline-color: #6CBF52;
+}
+
+.AuthForm_form_fieldinput__PDWbS:focus::after {
+    background-color: #E4F3DF;
+}
+
+
+.AuthForm_password_info__XNmRb{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(107,106,106)
+}
+
+.AuthForm_more__6Chwx {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 432px;
+}
+
+@media (max-width: 650px) {
+    .AuthForm_form_section__qOBJw{
+        width: 100%;
+        height: 900px;
+        background: url(/images/chatbackground.svg) center ;
+    }
+    .AuthForm_form___A_jj {
+        margin-top: 100px;
+      
+    }
+    
+    
+     
+    
+
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/Profile/SetList.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.SetList_setlist_section__Cc5_J {
+    padding: 8px 0px;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
+
+.SetList_set_link__DxLwh {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 16px;
+    align-items: center;
+    font-size: 24px;
+    gap: 16px;
+}
+
+.SetList_set_img__N23Im {
+    width: 70px;
+}
+
+
+
+
+@media (max-width: 650px) {
+
+    .SetList_set_link__DxLwh {
+        font-size: 16px;
+    }
+
+    .SetList_set_img__N23Im {
+        width: 60px;
+    }
+
+    
+
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/CardsList/Card.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.Card_place_card__nsa8X {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.Card_gradient___m6jd {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6125043767507004) 100%);
+}
+
+.Card_place_img__zpmQ6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.Card_place_description__F7Iwg {
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Card_place_name__1HnIv {
+    font-size: 24px;
+}
+
+.Card_place_adress__g0ZII {
+    font-size: 18px;
+}
+@media (max-width: 650px) {
+    
+
+
+    .Card_place_description__F7Iwg {
+
+        bottom: 16px;
+        left: 16px;
+        gap: 16px;
+    }
+
+    .Card_place_name__1HnIv {
+        font-size: 20px;
+    }
+
+    .Card_place_adress__g0ZII {
+        font-size: 14px;
+    }
+
+    
+
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/CardsList/CardsList.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+
+.CardsList_place_list__ZMwmg {
+    list-style: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-gap: 24px;
+    gap: 24px;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.CardsList_place_link__oj12j {
+    display: flex;
+    height: 100%;
+}
+.CardsList_place_card__oQM69 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.CardsList_gradient__ygcn1 {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.CardsList_place_img__zx1N_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.CardsList_place_description__WDYLL {
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.CardsList_place_name__4vF_b {
+    font-size: 24px;
+}
+
+.CardsList_place_adress__LaG56 {
+    font-size: 18px;
+}
+
+@media (max-width: 650px) {
+   .CardsList_list_section__witF9{
+    width: 351px;
+   }
+
+    .CardsList_place_list__ZMwmg {
+
+        grid-template-columns: 1fr;
+
+    }
+    .CardsList_place_description__WDYLL {
+
+        bottom: 16px;
+        left: 16px;
+        gap: 16px;
+    }
+
+    .CardsList_place_name__4vF_b {
+        font-size: 20px;
+    }
+
+    .CardsList_place_adress__LaG56 {
+        font-size: 14px;
+    }
+
+
+}

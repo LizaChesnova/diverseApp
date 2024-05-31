@@ -1,0 +1,15 @@
+.header {
+    background-color: white;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 24px auto;
+}
+
+@media (width <=650px) {
+    .header {
+        width: 351px;
+    }
+}

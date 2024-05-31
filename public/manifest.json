@@ -1,0 +1,17 @@
+{
+  "name": "Diverse",
+  "description": "City Cleaning Project for Volunteers",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "ru-RU",
+  "theme_color": "#6dbf54",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+.form_section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/images/chatbackgroundBig.svg) center ;
+    background-size: cover;
+}
+.form {
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 7;
+}
+
+.form_fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.form_title {
+    font-size: 20px;
+}
+
+.form_fieldinput {
+    width: 336px;
+    height: 56px;
+    font-size: 20px;
+    font-family: Comfortaa;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: 0px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.15);
+    margin-top: 32px;
+    color: rgb(0, 0, 0, 0.6);
+    padding-left: 16px;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.form__submit {
+    width: 356px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #6CBF52;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    transition: color 0.3s ease-in-out
+}
+
+.form__submit:hover {
+    color: rgb(0, 0, 0);
+}
+
+.form__submit:disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+
+.form_fieldinput:focus {
+    outline-width: 2px;
+    outline-color: #6CBF52;
+}
+
+.form_fieldinput:focus::after {
+    background-color: #E4F3DF;
+}
+
+
+.password_info{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(107,106,106)
+}
+
+.more {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 432px;
+}
+
+@media (width <=650px) {
+    .form_section{
+        width: 100%;
+        height: 900px;
+        background: url(/images/chatbackground.svg) center ;
+    }
+    .form {
+        margin-top: 100px;
+      
+    }
+    
+    
+     
+    
+
+}

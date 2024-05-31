@@ -1,0 +1,52 @@
+.place_title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.place_adress{
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #000000;
+
+}
+.event_date{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #327C1B;
+
+}
+.place_disc{
+    margin-top: 24px;
+
+}
+
+.place_img{
+    width: 700px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+@media (width <=650px) {
+  
+    .place_title {
+  
+      font-size: 20px;
+  
+    }
+    .place_adress{
+        font-size: 16px;
+  
+    }
+    .place_img{
+        width: 340px;
+    }
+    
+  
+  }

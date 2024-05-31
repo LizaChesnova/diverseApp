@@ -1,0 +1,36 @@
+.setlist_section {
+    padding: 8px 0px;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
+
+.set_link {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 16px;
+    align-items: center;
+    font-size: 24px;
+    gap: 16px;
+}
+
+.set_img {
+    width: 70px;
+}
+
+
+
+
+@media (width <=650px) {
+
+    .set_link {
+        font-size: 16px;
+    }
+
+    .set_img {
+        width: 60px;
+    }
+
+    
+
+}
